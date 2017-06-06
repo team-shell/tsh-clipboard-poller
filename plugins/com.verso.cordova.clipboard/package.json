@@ -1,0 +1,105 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "com.verso.cordova.clipboard@0.1.0",
+        "scope": null,
+        "escapedName": "com.verso.cordova.clipboard",
+        "name": "com.verso.cordova.clipboard",
+        "rawSpec": "0.1.0",
+        "spec": "0.1.0",
+        "type": "version"
+      },
+      "/home/tjackman/security/development/facebook-pm-hack/node_modules"
+    ]
+  ],
+  "_from": "com.verso.cordova.clipboard@0.1.0",
+  "_id": "com.verso.cordova.clipboard@0.1.0",
+  "_inCache": true,
+  "_location": "/com.verso.cordova.clipboard",
+  "_nodeVersion": "7.5.0",
+  "_npmOperationalInternal": {
+    "host": "packages-18-east.internal.npmjs.com",
+    "tmp": "tmp/com.verso.cordova.clipboard-0.1.0.tgz_1494867944377_0.6417081146501005"
+  },
+  "_npmUser": {
+    "name": "rteran",
+    "email": "rafaelterantorralbo@gmail.com"
+  },
+  "_npmVersion": "4.1.2",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "com.verso.cordova.clipboard@0.1.0",
+    "scope": null,
+    "escapedName": "com.verso.cordova.clipboard",
+    "name": "com.verso.cordova.clipboard",
+    "rawSpec": "0.1.0",
+    "spec": "0.1.0",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/com.verso.cordova.clipboard/-/com.verso.cordova.clipboard-0.1.0.tgz",
+  "_shasum": "11314dcfd869a4385802443deefe45eb1b921c0d",
+  "_shrinkwrap": null,
+  "_spec": "com.verso.cordova.clipboard@0.1.0",
+  "_where": "/home/tjackman/security/development/facebook-pm-hack/node_modules",
+  "author": {
+    "name": "RTeran"
+  },
+  "bugs": {
+    "url": "https://github.com/RTeran/CordovaClipboard/issues"
+  },
+  "cordova": {
+    "id": "com.verso.cordova.clipboard",
+    "platforms": [
+      "ios",
+      "android",
+      "wp8"
+    ]
+  },
+  "dependencies": {},
+  "description": "Clipboard management plugin for Cordova/PhoneGap",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "11314dcfd869a4385802443deefe45eb1b921c0d",
+    "tarball": "https://registry.npmjs.org/com.verso.cordova.clipboard/-/com.verso.cordova.clipboard-0.1.0.tgz"
+  },
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "gitHead": "03fe48b62411cbff22229ca13cc3ac8b282f7945",
+  "homepage": "https://github.com/RTeran/CordovaClipboard#readme",
+  "keywords": [
+    "clipboard",
+    "copy",
+    "paste",
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android",
+    "cordova-wp8"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "rteran",
+      "email": "rafaelterantorralbo@gmail.com"
+    }
+  ],
+  "name": "com.verso.cordova.clipboard",
+  "optionalDependencies": {},
+  "readme": "Clipboard\n=========\n\nClipboard management plugin for Cordova/PhoneGap that supports iOS, Android, and Windows Phone 8.\n\n## Usage\n\nInstall the plugin using the CLI, for instance with PhoneGap:\n\n\tphonegap local plugin add https://github.com/VersoSolutions/CordovaClipboard\n\nThe plugin creates the object `cordova.plugins.clipboard` with the methods `copy(text, onSuccess, onError)` and `paste(onSuccess, onError)`.\n\nExample:\n\n\tvar text = \"Hello World!\";\n\n\tcordova.plugins.clipboard.copy(text);\n\n\tcordova.plugins.clipboard.paste(function (text) { alert(text); });\n\n## Notes\n\n### All platforms\n\n- The plugin only works with text content.\n\n### Windows Phone\n\n- The Windows Phone platform doesn't allow applications to read the content of the clipboard. Using the `paste` method will return an error.\n\n### Android\n\n- The minimum supported API Level is 11. Make sure that `minSdkVersion` is larger or equal to 11 in `AndroidManifest.xml`.\n\n## Acknowledgements\n\nThis plugin was inspired by [ClipboardManagerPlugin](https://github.com/jacob/ClipboardManagerPlugin) (Android) and [ClipboardPlugin](https://github.com/phonegap/phonegap-plugins/tree/master/iPhone/ClipboardPlugin) (iOS).\n\n## License\n\nThe MIT License (MIT)\n\nCopyright (c) 2013 Verso Solutions LLC\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://RTeran@github.com/RTeran/CordovaClipboard.git"
+  },
+  "scripts": {},
+  "version": "0.1.0"
+}

@@ -1,0 +1,112 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "cordova-plugin-clipboard-x",
+        "scope": null,
+        "escapedName": "cordova-plugin-clipboard-x",
+        "name": "cordova-plugin-clipboard-x",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/home/tjackman/security/development/tsh-clipboard-poller/node_modules"
+    ]
+  ],
+  "_from": "cordova-plugin-clipboard-x@latest",
+  "_id": "cordova-plugin-clipboard-x@1.0.1",
+  "_inCache": true,
+  "_location": "/cordova-plugin-clipboard-x",
+  "_nodeVersion": "0.12.10",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/cordova-plugin-clipboard-x-1.0.1.tgz_1478001536816_0.022917423164471984"
+  },
+  "_npmUser": {
+    "name": "niconaso",
+    "email": "niconaso@gmail.com"
+  },
+  "_npmVersion": "2.14.9",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "cordova-plugin-clipboard-x",
+    "scope": null,
+    "escapedName": "cordova-plugin-clipboard-x",
+    "name": "cordova-plugin-clipboard-x",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-clipboard-x/-/cordova-plugin-clipboard-x-1.0.1.tgz",
+  "_shasum": "5894d089b7d57c427bc4aeed6196799a55eeec5e",
+  "_shrinkwrap": null,
+  "_spec": "cordova-plugin-clipboard-x",
+  "_where": "/home/tjackman/security/development/tsh-clipboard-poller/node_modules",
+  "author": {
+    "name": "Apache Software Foundation"
+  },
+  "bugs": {
+    "url": "https://github.com/niconaso/cordova-plugin-clipboard-x/issues"
+  },
+  "cordova": {
+    "id": "cordova-plugin-clipboard-x",
+    "platforms": [
+      "android",
+      "ios",
+      "wp8"
+    ]
+  },
+  "dependencies": {},
+  "description": "Cordova Clipboard Plugin",
+  "devDependencies": {
+    "jshint": "^2.6.0"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "5894d089b7d57c427bc4aeed6196799a55eeec5e",
+    "tarball": "https://registry.npmjs.org/cordova-plugin-clipboard-x/-/cordova-plugin-clipboard-x-1.0.1.tgz"
+  },
+  "engines": {
+    "cordovaDependencies": {
+      "3.0.0": {
+        "cordova": ">100"
+      }
+    }
+  },
+  "gitHead": "50ccd06341dd26de2e1efdbb01dee45830a82b7a",
+  "homepage": "https://github.com/niconaso/cordova-plugin-clipboard-x#readme",
+  "keywords": [
+    "cordova",
+    "clipboard",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "cordova-wp8",
+    "copy",
+    "paste"
+  ],
+  "license": "Apache-2.0",
+  "maintainers": [
+    {
+      "name": "niconaso",
+      "email": "niconaso@gmail.com"
+    }
+  ],
+  "name": "cordova-plugin-clipboard-x",
+  "optionalDependencies": {},
+  "readme": "Clipboard\n=========\n\nClipboard management plugin for Cordova/PhoneGap that supports iOS, Android, and Windows Phone 8.\n\n## Usage\n\nInstall the plugin using the CLI, for instance with\n\n\n* Cordova:\n\n\tcordova plugin add cordova-plugin-clipboard-x\n* Ionic\n\n\tionic plugin add cordova-plugin-clipboard-x --save\n\n\nThe plugin creates the object `cordova.plugins.clipboard` with the methods `copy(text, onSuccess, onError)` and `paste(onSuccess, onError)`.\n\nExample:\n\n\tvar text = \"Hello World!\";\n\n\tcordova.plugins.clipboard.copy(text);\n\n\tcordova.plugins.clipboard.paste(function (text) { alert(text); });\n\n## Notes\n\n### All platforms\n\n- The plugin only works with text content.\n\n### Windows Phone\n\n- The Windows Phone platform doesn't allow applications to read the content of the clipboard. Using the `paste` method will return an error.\n\n### Android\n\n- The minimum supported API Level is 11. Make sure that `minSdkVersion` is larger or equal to 11 in `AndroidManifest.xml`.\n\n## Acknowledgements\n\nThis plugin was inspired by [ClipboardManagerPlugin](https://github.com/jacob/ClipboardManagerPlugin) (Android) and [ClipboardPlugin](https://github.com/phonegap/phonegap-plugins/tree/master/iPhone/ClipboardPlugin) (iOS).\n\n## License\n\nThe MIT License (MIT)\n\nCopyright (c) 2013 Verso Solutions LLC\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niconaso/cordova-plugin-clipboard-x.git"
+  },
+  "scripts": {
+    "jshint": "node node_modules/jshint/bin/jshint www && node node_modules/jshint/bin/jshint src && node node_modules/jshint/bin/jshint tests",
+    "test": "npm run jshint"
+  },
+  "version": "1.0.1"
+}
