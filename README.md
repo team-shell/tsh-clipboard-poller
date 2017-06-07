@@ -1,6 +1,10 @@
 ###### tsh-clipboard-sniffer
 > Cordova Clipboard Sniffer
 
-![](sample1.jpg)
+Sniffing alerts in the app:
 
-![](sample2.jpg)
+<img src="sample1.jpg" width="400">
+
+Sniffing notifications for found email addresses:
+
+<img src="sample2.jpg" width="400">
